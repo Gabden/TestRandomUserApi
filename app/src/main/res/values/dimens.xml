@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- recyclerview_row-->
+    <dimen name="user_name_marginLeft">10dp</dimen>
+    <dimen name="user_name_textSize">20sp</dimen>
+    <dimen name="user_image_dimension">75dp</dimen>
+
+    <!-- UserDetailActivity-->
+    <dimen name="image_marginTop">20dp</dimen>
+    <dimen name="user_detail_image_dimension">150dp</dimen>
+    <dimen name="table_layout_marginTop">30dp</dimen>
+    <dimen name="table_row_marginTop">10dp</dimen>
+</resources>

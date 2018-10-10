@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/toolbar_layout"/>
+
+    <ImageView
+        android:id="@+id/iv_user_detail_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/image_marginTop"
+        tools:src="@mipmap/ic_launcher"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        android:layout_marginTop="@dimen/table_layout_marginTop">
+
+        <TableRow>
+            <TextView
+                android:text="@string/user_name"
+                />
+            <TextView
+                android:id="@+id/tv_user_name_field"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="@dimen/table_row_marginTop">
+            <TextView
+                android:text="@string/user_email"/>
+            <TextView
+                android:id="@+id/tv_user_email_field"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="@dimen/table_row_marginTop">
+            <TextView
+                android:text="@string/user_birthday"/>
+            <TextView
+                android:id="@+id/tv_user_birthday_field"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="@dimen/table_row_marginTop">
+            <TextView
+                android:text="@string/user_address"/>
+            <TextView
+                android:id="@+id/tv_user_address_field"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="@dimen/table_row_marginTop">
+            <TextView
+                android:text="@string/user_phone_number"/>
+            <TextView
+                android:id="@+id/tv_user_phone_number_field" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
